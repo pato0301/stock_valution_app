@@ -1,0 +1,13 @@
+name: stock_valuation
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - yfinance==0.2.36
+      - streamlit==1.30.0
+      - pandas==2.2.0
+      - matplotlib==3.9.2
+      - seaborn==0.13.2
