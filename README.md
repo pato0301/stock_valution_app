@@ -39,7 +39,7 @@ conda env create -f environment.yml
 3. Activate the Environment:
 
 ```bash
-conda activate <environment-name>
+conda activate stock_valuation
 ```
 
 4. Install Dependencies: Ensure that all necessary packages are installed. This is usually done by the environment.yml, but you can run:
